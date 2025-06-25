@@ -3,11 +3,20 @@
 <head>
   <meta charset="UTF-8" />
   <title>AJAX with PHP</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barriecito&family=Matangi:wght@300..900&family=Sora:wght@100..800&display=swap" rel="stylesheet">
+<style>
+
+  #quote-container {
+  text-shadow: 0 4px 16px rgba(181, 14, 136, 0.25), 0 1.5px 4px rgba(145, 7, 7, 0.18);
+}
+</style>
 </head>
 <body>
   <h1>AJAX Test</h1>
-  <button id="fetchData">Fetch Data</button>
-  <div id="result"></div>
+  <button id="fetchData" onclick="randomQuote()">Fetch Data</button>
+  <div id="quote-container"></div>
 
   <script src="script.js"></script>
 </body>
